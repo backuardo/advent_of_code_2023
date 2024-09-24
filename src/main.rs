@@ -11,6 +11,7 @@ fn main() {
         "1" => solutions::solution_01::run(),
         "2" => solutions::solution_02::run(),
         "3" => solutions::solution_03::run(),
+        "4" => solutions::solution_04::run(),
         _ => println!("Provide a valid day"),
     }
 }
